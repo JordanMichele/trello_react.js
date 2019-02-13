@@ -1,8 +1,7 @@
 import React from 'react';
-
 import List from './list';
-
 import './board.css';
+import navBar from './navBar';
 
 export default function Board() {
     return (
