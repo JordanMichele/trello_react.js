@@ -1,7 +1,14 @@
 import React from 'react';
-import { Button } from 'react-bootstrap';
-export default function navBar() {
+import { Navbar } from 'react-bootstrap';
+export default function navigation() {
     return (
-        <Button bsStyle='success'>Hello</Button>
+        <div>
+            <Navbar expand="lg" variant="light" bg="light">
+                <Container>
+                    <Navbar.Brand href="#">Navbar</Navbar.Brand>
+                </Container>
+            </Navbar>
+
+        </div>  
     );
 }
